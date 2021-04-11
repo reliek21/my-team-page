@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://kelex21.github.io/my-team-page/">
+    <a href="https://kelex-21.github.io/my-team-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/vaN4fmaLJHOhZmtUBmLO">
+    <a href="https://devchallenges.io/solutions/CSEG8lluQB9JeeuU2CmZ">
       Solution
     </a>
     <span> | </span>
@@ -47,5 +47,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@Kelex21](https://github.com/Kelex21)
+- GitHub [@Kelex-21](https://github.com/Kelex-21)
 - Twitter [@KelexG21](https://twitter.com/KelexG21)
