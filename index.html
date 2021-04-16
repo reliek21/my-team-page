@@ -3,11 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="assets/favicon/devchallenges.png" type="image/x-icon">
+    <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
     <title>My Team Page</title>
 </head>
@@ -15,147 +20,61 @@
 <body>
     <div class="container">
         <aside>
-            <div class="box-left">
-                <h1>The creative crew</h1>
-            </div>
-            <div class="box-right">
+            <h1>The creative crew</h1>
+            <div class="box-text">
                 <h3>Who we are</h3>
                 <p>We are team of creatively diverse. driven. innovative individuals working in various locations from
                     the world.</p>
             </div>
         </aside>
-        <!-- ?Section -->
+
         <section>
-            <div class="photos">
-                <div class="column">
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo1.png" alt="Image">
-                            <p class="name">Bill Mahoney</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Product Owner</p>
-                        </div>
-                    </div>
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo4.png" alt="Image">
-                            <p class="name">Skylah Lu</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Ux Designer</p>
-                        </div>
-                    </div>
+            <div class="image image1">
+                <div class="box-image">
+                    <img src="assets/photos/photo1.png" alt="Image">
+                    <h3 class="name">Bill Mahoney</h3>
                 </div>
-                <div class="column column_down">
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo2.png" alt="Image">
-                            <p class="name">Saba Cabrera</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Art Director</p>
-                        </div>
-                    </div>
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo5.png" alt="Image">
-                            <p class="name">Griff Richars</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Developer</p>
-                        </div>
-                    </div>
+                <h3 class="work">Product owner</h3>
+            </div>
+            <div class="image image2 image-top image-top2">
+                <div class="box-image">
+                    <img src="assets/photos/photo2.png" alt="Image">
+                    <h3 class="name">Saba Cabrera</h3>
                 </div>
-                <div class="column">
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo3.png" alt="Image">
-                            <p class="name">Shae Le</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Tech Lead</p>
-                        </div>
-                    </div>
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo6.png" alt="Image">
-                            <p class="name">Stan Jhon</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Developer</p>
-                        </div>
-                    </div>
+                <h3 class="work">Art director</h3>
+            </div>
+            <div class="image image3">
+                <div class="box-image">
+                    <img src="assets/photos/photo3.png" alt="Image">
+                    <h3 class="name">Shae Le</h3>
                 </div>
-
-                <!-- ?New Columns -->
-                <div class=" column new_column">
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo1.png" alt="Image">
-                            <p class="name">Bill Mahoney</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Product Owner</p>
-                        </div>
-                    </div>
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo3.png" alt="Image">
-                            <p class="name">Shae Le</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Tech Lead</p>
-                        </div>
-                    </div>
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo5.png" alt="Image">
-                            <p class="name">Griff Richars</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Developer</p>
-                        </div>
-                    </div>
+                <h3 class="work">Tech Lead</h3>
+            </div>
+            <div class="image image4 image-top2">
+                <div class="box-image">
+                    <img src="assets/photos/photo4.png" alt="Image">
+                    <h3 class="name">Skylah Lu</h3>
                 </div>
-
-                <div class="column new_column column_down">
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo2.png" alt="Image">
-                            <p class="name">Saba Cabrera</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Art Director</p>
-                        </div>
-                    </div>
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo4.png" alt="Image">
-                            <p class="name">Skyah Lu</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Ux Designer</p>
-                        </div>
-                    </div>
-                    <div class="photo">
-                        <div class="left">
-                            <img src="assets/photos/photo6.png" alt="Image">
-                            <p class="name">Stan Jhon</p>
-                        </div>
-                        <div class="right">
-                            <p class="profession">Developer</p>
-                        </div>
-                    </div>
+                <h3 class="work">UX Designer</h3>
+            </div>
+            <div class="image image5 image-top">
+                <div class="box-image">
+                    <img src="assets/photos/photo5.png" alt="Image">
+                    <h3 class="name">Griff Richards</h3>
                 </div>
-
-                <!-- ?New Columns -->
+                <h3 class="work">Developer</h3>
+            </div>
+            <div class="image image6 image-top2">
+                <div class="box-image">
+                    <img src="assets/photos/photo6.png" alt="Image">
+                    <h3 class="name">Stan John</h3>
+                </div>
+                <h3 class="work">DEverloper</h3>
             </div>
         </section>
-        <!-- ?Section -->
 
         <footer>
-            <p>Keiler Guardo <a href="https://devchallenges.io/challenges" target="_blank">@DevChallenges.io</a></p>
+            <p><span>Keiler Guardo</span> - <a href="https://devchallenges.io/">devChallenges.io</a></p>
         </footer>
     </div>
 </body>
