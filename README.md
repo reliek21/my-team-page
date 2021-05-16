@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://kelex-21.github.io/my-team-page/">
+    <a href="https://kegubits.github.io/my-team-page/">
       Demo
     </a>
     <span> | </span>
